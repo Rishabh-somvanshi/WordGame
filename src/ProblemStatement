@@ -1,0 +1,13 @@
+[11:08 AM] Shivam Soni (Guest)
+    Coding is to be done here - https://www.programiz.com/html/online-compiler/
+Time limit: 50 mins
+ 
+Problem Steps:
+Create a react application
+1. Do an API call and parse the response to an array. API URL - https://random-word-api.herokuapp.com/all.
+2. Create a state and state one variable to randomly be assigned one word out of the above array. The variable is word_to_be_guessed.
+ 
+3. Create an HTML view to show one input that accepts only a single word. No spaces. The word should be 5 letters long just like the words we got from the API call.
+ 
+4. Create a view to show the entered value beneath. There should be a counter for the number of attempts. There is a limit of 6 attempts, beyond which the input will be closed for accepting further attempts.
+5. When the user submits an entry, check if the input exists in the array of words we received from the API call. If yes, compare the input with the word_to_be_guessed variable and check if all the letters are correctly guessed. If an alphabet exists in the word but is guessed at the wrong place then the letter is highlighted as yellow. If an alphabet exists in the word and is guessed at the right place then the letter is highlighted as green.
